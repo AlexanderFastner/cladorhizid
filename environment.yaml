@@ -1,4 +1,4 @@
-name: Helipora
+name: Cladorhizid
 channels:
   - defaults
 dependencies:
@@ -13,4 +13,6 @@ dependencies:
       - scikit-learn
       - chardet
       - notebook
+      - typer
+
 prefix: ~/anaconda/envs/Heliopora
