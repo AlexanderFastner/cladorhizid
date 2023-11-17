@@ -384,7 +384,7 @@ def main(assembly: str = '',
     # Get a list of unique ids
     unique_ids = df['id'].unique()
         
-    if visualize_Coverage:
+    if visualize_coverage:
 
         def process_coverage_plots(id):
             # Filter the dataframe to get only the rows for this id
